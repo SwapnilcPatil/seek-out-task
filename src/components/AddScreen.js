@@ -43,8 +43,8 @@ const AddScreen = () => {
                         <p className='text-gray-400 text-md mb-8 font-medium'>Set email,location and role</p>
                         <hr className='mb-8' />
                         <p className='text-xl font-semibold mb-4'>Info</p>
-                        <input className="border-2 rounded w-full py-4 px-3 mb-4 text-gassy-grey text-lg bg-sober-black leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="First & Last Name" value={firstname} onChange={(e) => setFirstname(e.target.value)} />
-                        <input className="border-2 rounded w-full py-4 px-3 mb-4 text-gassy-grey text-lg bg-sober-black leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="First & Last Name" value={lastname} onChange={(e) => setLastname(e.target.value)} />
+                        <input className="border-2 rounded w-full py-4 px-3 mb-4 text-gassy-grey text-lg bg-sober-black leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="First Name" value={firstname} onChange={(e) => setFirstname(e.target.value)} />
+                        <input className="border-2 rounded w-full py-4 px-3 mb-4 text-gassy-grey text-lg bg-sober-black leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Last Name" value={lastname} onChange={(e) => setLastname(e.target.value)} />
                         <input className="border-2 rounded w-full py-4 px-3 mb-4 text-gassy-grey text-lg bg-sober-black leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Phone Number" value={phone} onChange={(e) => setPhone(e.target.value)} />
                         <input className="border-2 rounded w-full py-4 px-3 mb-4 text-gassy-grey text-lg bg-sober-black leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
                         <p className='text-xl font-semibold mb-2'>Role</p>
